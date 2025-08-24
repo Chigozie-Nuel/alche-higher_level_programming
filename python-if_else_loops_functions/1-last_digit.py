@@ -4,9 +4,6 @@ import random
 number = random.randint(-10000, 10000)
 last_digit = number % 10
 
-if last_digit < 0:
-    last_digit = -last_digit
-
 output_message = f"Last digit of {number} is {last_digit}"
 
 if last_digit > 5:
