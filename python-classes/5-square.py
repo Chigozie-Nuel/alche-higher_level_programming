@@ -11,7 +11,7 @@ class Square:
         Args:
             size (int): The size of the square (default is 0)
         """
-        self.size = size  # uses setter for validation
+        self.size = size  # use setter for validation
 
     @property
     def size(self):
@@ -34,4 +34,7 @@ class Square:
     def my_print(self):
         """Print the square with the character #"""
         if self.__size == 0:
-            p
+            print("")
+        else:
+            for _ in range(self.__size):
+                print("#" * self.__size)
