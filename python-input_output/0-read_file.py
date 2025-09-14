@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Module that defines a function to read and print a UTF-8 text file to stdout."""
+"""Defines a function that reads and prints a UTF-8 text file to stdout."""
 
 
 def read_file(filename=""):
